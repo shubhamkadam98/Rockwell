@@ -13,7 +13,7 @@ app.get('/', function (req, res) {
  
 
 app.get('/hello', function (req, res) {
-  console.log("CAlling rest api");
+  console.log("Calling rest api");
   var person={firstName:'shubham',lastName:'kadam',age:24};
   res.send(person);
 });
